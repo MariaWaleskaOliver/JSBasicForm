@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+	<script src="index.js"></script>
+    <title>Nail polish world</title>
+</head>
+<body>
+
+   <main id="order">
+         <h1>Welcome to the nail polish world</h1>
+          <form>
+    
+         <fieldset>
+         <h2>Check Our Products</h2>
+         <table>
+         <div id="field">
+            <tr>
+                <td>Nail pliers </td>
+                <td> $ 34.99 </td>
+                <td id="val01"></td>
+                <td></div><input type ="button" value = "ADD TO CARD" onclick="Nailpliers()"></td>
+            </tr>
+      
+         <div id="field">
+            <tr>
+                <td>Nail Poli</td>
+                <td> $8.99 </td>
+                <td id="val02"></td>
+                <td><input type ="button" value = "ADD TO CARD" onclick="NailPoli()"></td>
+            </tr>
+         </div>	
+         <div id="field">
+            <tr>
+                <td>Acetone </td>
+                <td> $ 5.99 </td>
+                <td id="val03"></td>
+                <td><input type ="button" value = "ADD TO CARD" onclick="Acetone()"></td>
+            </tr>
+         </div>	
+         <div id="field">	
+            <tr>
+                <td>Nail file</td>
+                <td> $ 3.99 </td>
+                <td id="val04"></td>
+                <td><input type ="button" value = "ADD TO CARD" onclick="Nailfile()"></td>
+            </tr>
+         </div>	
+         <div id="field">	
+            <tr>
+                <td>Nail Ext</td>
+                <td> $104,99</td>
+                <td id="val05"></td>
+                <td><input type ="button" value = "ADD TO CARD" onclick="NailExt()"></td>
+            </tr>
+         </div>	
+         </table>
+         <input type ="button" value="Checkout" onclick="checkout()"></td>
+        </fieldset>
+            <fieldset>
+           
+                <h2>Receipt</h2>
+                <h3>Costumer Name: <p id ="costumerName"></p></h3>
+             
+                <table>
+                    <thead>
+                     
+                     <tr>
+                         
+                         <th>Products</th>
+                         <th></th>
+                         <th> SubTotal  </th>
+                        
+                     </tr>
+                     </thead>	
+                     <tbody>
+                         </tr>
+                     <tr>
+                        <td> Nail pliers</td>
+                        <td></td> 
+                        <td id ="total01"> </td>
+                           
+                     </tr>
+                     
+                     <tr>
+                        <td> Nail Poli</td>
+                        <td></td> 
+                        <td id ="total02"> </td>
+                       
+                    </tr>
+                     <tr>
+                         <td> Acetone </td>
+                         <td></td> 
+                         <td id="total03"> </td>
+                       
+                     </tr>
+                     <tr>
+                         <td>Nail file</td>
+                         <td></td> 
+                         <td id ="total04"></td>
+                        
+                     </tr>
+                   
+                    <tr>
+                        <td> Nail Ext</td>
+                        <td></td> 
+                        <td id ="total05"></td>
+                       
+                    </tr>
+                    <tr>
+                        <td> GTS</td> 
+                        <td id ="gts"></td>
+
+                    </tr>
+                    <tr>
+                        <td> Total</td>
+                        <td id ="Finaltotal"> </td>
+
+                    </tr>
+
+                   
+                     </thead>
+                    </tbody>
+                 </table>
+
+                
+        </fieldset>
+
+     </form>
+
+
+    </main>      
+    </body>
+</html>
